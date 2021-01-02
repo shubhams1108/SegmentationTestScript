@@ -5,6 +5,6 @@ array=( This is where you can put up your host or ip address from where you will
 for i in "${array[@]}"
 do
             echo $i
-            sshpass -f 'path_To_PasswordFile' ssh username@$i 'sudo nmap scan'
+            sshpass -f 'path_To_PasswordFile' ssh username@$i 'sudo nmap scanType'
 	    sleep 10
 done
